@@ -5,7 +5,6 @@
     background-color: #009B47;
     height: 100px;
     display: flex;
-    /* text-align: center; */
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -16,14 +15,12 @@
     font-weight: bolder;
     color: white;
     width: 700px;
-    padding-top: 20px;
-    
+    padding-top: 20px; 
 }
  .products1:hover{
     border-bottom:solid black;
     border-bottom-width: thick;
 } 
-
 .Sprite-Zero:hover{
     border-bottom: solid black;
     border-bottom-width: thick;
@@ -36,9 +33,6 @@
     border-bottom: solid black;
     border-bottom-width: thick;
 }
-/* .Sprite-Zero{
-    position: relative;
-} */
 .sprite-logo{
     height: 50px;
     padding: 20px;
@@ -47,13 +41,9 @@
 .sprite-summer{
     height: 100px;
     padding-top: 50px;
-    /* padding-left: 70px; */
 }
 ul{
     display: flex;
-    
-    /* align-items: center; */
-
 }
 ul li{
     align-items: center;
@@ -67,29 +57,18 @@ ul li{
 ul.buy{
     margin-right: 200px;
 }
-
 .footer{
     background-color: #009B47;
 }
 .section1{
-    /* background-color: black; */
     background-image: url("spritenew1.jpg");
     width:auto;
     margin: 0px;
-
     height: auto;
     padding-left: 50px; 
     display: flex;
     padding-top: 100px;
 }
- /* 
-    height: 400px;
-    
-}  */
-/* .section1sub{
-    z-index: 2;
-    background-image: ;
-} */
 .section1 button{
     margin-bottom: 100px;
 }
@@ -150,11 +129,6 @@ ul.buy{
 .lastpara h1{
     font-size: 50px;
 }
-/* .section4{
-    background-color: #009B47;
-    height: 450px;
-    display: flex;
-} */
 .fb,.yt,.tw,.insta,.spotify,.person{
     padding: 10px;
     padding-top: 40px;
@@ -200,7 +174,6 @@ ul.buy{
     width: 600px;
     color: white;
 }
-
 .section1 button{
     background-color: yellow;
     color: black;
@@ -272,8 +245,7 @@ a{
     color: white;
     text-align: center;
     font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
 .footer p a:hover{
     text-decoration: underline;
@@ -286,10 +258,4 @@ a{
     padding-left: 200px;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.sBottle img{
-        height: 607px;
-    width: 799px;
-    size-adjust: 100;
-
 }
