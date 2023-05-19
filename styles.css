@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
 }
-.header{
+
+.header {
     background-color: #009B47;
     height: 100px;
     display: flex;
@@ -10,161 +11,182 @@
     width: 100%;
     top: 0;
 }
-.home{
+
+.home {
     display: flex;
     font-weight: bolder;
-    color: white;
+    color: #ffffff;
     width: 700px;
-    padding-top: 20px; 
+    padding-top: 20px;
 }
- .products1:hover{
-    border-bottom:solid black;
-    border-bottom-width: thick;
-} 
-.Sprite-Zero:hover{
-    border-bottom: solid black;
-    border-bottom-width: thick;
-}
-.Creators:hover{
-    border-bottom: solid black;
-    border-bottom-width: thick;
-}
-.buy:hover{
-    border-bottom: solid black;
-    border-bottom-width: thick;
-}
-.sprite-logo{
+
+.sprite-logo {
     height: 50px;
     padding: 20px;
     padding-left: 30px;
 }
-.sprite-summer{
+
+.sprite-summer {
     height: 100px;
     padding-top: 50px;
 }
-ul{
+
+ul {
     display: flex;
 }
-ul li{
+
+ul li {
     align-items: center;
     list-style: none;
     gap: 40px;
     padding-left: 40px;
     padding-top: 20px;
-    color: white;
+    color: #ffffff;
     padding-bottom: 5px;
 }
-ul.buy{
+
+ul.buy {
     margin-right: 200px;
 }
-.footer{
+
+.footer {
     background-color: #009B47;
 }
-.section1{
+
+.section1 {
     background-image: url("spritenew1.jpg");
-    width:auto;
+    width: auto;
     margin: 0px;
     height: auto;
-    padding-left: 50px; 
+    padding-left: 50px;
     display: flex;
     padding-top: 100px;
 }
-.section1 button{
+
+.section1 button {
     margin-bottom: 100px;
 }
-.section1 button:hover{
-    background-color: black;
-    color: white;
+
+.section1 button:hover {
+    background-color: #000000;
+    color: #ffffff;
     border: none;
     cursor: pointer;
 }
-.section2{
-    background-color: white;
+
+.section2 {
+    background-color: #ffffff;
     height: 500px;
     display: flex;
     margin-top: 5px;
 }
-.text h1{
-    font-family: Arial Black;
+
+.text h1 {
+    font-family: Arial #000000;
     font-size: 50px;
+    margin-top: 45px;
 }
-.text p{
+
+.text p {
     font-family: Franklin Gothic Medium;
     font-size: 27px;
     margin-right: 0px;
     margin-bottom: 60px;
 }
-.text button{
-    padding:10px;
+
+.text button {
+    padding: 10px;
     padding-left: 60px;
     padding-right: 60px;
     font-weight: 900;
-    background-color: rgb(255,209,0);
+    background-color: #ffd100;
     border: none;
 }
-.text button:hover{
-    background-color: rgb(49 46 36);
-    color: white;
+
+.text button:hover {
+    background-color: #312e24;
+    color: #ffffff;
     border: none;
     cursor: pointer;
 }
-.video{
+
+.video {
     margin: 50px;
     margin-left: 100px;
 }
-.section3{
-    background-color: white;
+
+.section3 {
+    background-color: #ffffff;
     height: auto;
     display: flex;
     margin-bottom: 0;
 }
-.bottlepic img{
+
+.bottlepic img {
     height: 400px;
 }
-.lastpara{
+
+.lastpara {
     margin-left: 100px;
     margin-top: 0px;
     width: 550px;
+    color: #009B47;
 }
-.lastpara h1{
+
+.lastpara h1 {
     font-size: 50px;
 }
-.fb,.yt,.tw,.insta,.spotify,.person{
+
+.fb,
+.yt,
+.tw,
+.insta,
+.spotify,
+.person {
     padding: 10px;
     padding-top: 40px;
     height: 25px;
-    
+
 }
-.person{
+
+.person {
     filter: invert(100);
 }
-.fb{
+
+.fb {
     padding-left: 250px;
 }
-.fb:hover{
+
+.fb:hover {
     filter: invert(100);
 }
-.yt:hover{
+
+.yt:hover {
     filter: invert(100);
 
 }
-.tw:hover{
+
+.tw:hover {
     filter: invert(100);
 
 }
-.insta:hover{
+
+.insta:hover {
     filter: invert(100);
 
 }
-.spotify:hover{
+
+.spotify:hover {
     filter: invert(100);
 
 }
-.person:hover{
+
+.person:hover {
     filter: invert(0);
 
 }
-.celebration{
+
+.celebration {
     font-size: 72px;
     font-weight: 400;
     font-style: normal;
@@ -172,85 +194,110 @@ ul.buy{
     text-align: left;
     margin-block-end: 8px;
     width: 600px;
-    color: white;
+    color: #ffffff;
 }
-.section1 button{
-    background-color: yellow;
-    color: black;
+
+.section1 button {
+    background-color: #ffff00;
+    color: #000000;
     padding: 10px;
     font-size: medium;
     font-weight: bolder;
 }
-p{
+
+p {
     margin: 0px;
 }
-ul.footer-details{
+
+ul.footer-details {
     text-align: center;
     padding-left: 100px;
     padding-bottom: 50px;
     font-weight: bold;
     border-right-style: solid;
 }
-p.coca-cola{
+
+p.coca-cola {
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     font-family: 'AktivGroteskCdBlack';
 }
-a{
+
+a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
-.aboveFooter{
+
+.aboveFooter {
     background-color: #009B47;
     height: 400px;
-    margin-top:0 ;
+    margin-top: 0;
     display: flex;
 }
-.footerImg img{
+
+.footerImg img {
     height: 70px;
     padding-top: 100px;
     padding-left: 250px;
 }
-.connect p{
+
+.connect p {
     padding-top: 50px;
     padding-left: 150px;
     font-family: Franklin Gothic Medium;
-    color: white;
+    color: #ffffff;
 }
-.social1{
+
+.social1 {
     display: flex;
-    padding-left: 150px;
+    padding-left: 145px;
     padding-top: 60px;
+
 }
-.social1 a:hover img{
+
+.footer-fb,
+.footer-twitter,
+.footer-youtube,
+.footer-spotify {
+    margin: 2px;
+}
+
+.social1 a:hover img {
     transform: scale(1.5);
 }
-.products{
+
+.products {
     padding-top: 50px;
     padding-left: 250px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.products p{
+
+.products p {
     padding-bottom: 10px;
 }
-.hColor{
-    color: white;
+
+.hColor {
+    color: #ffffff;
     padding-bottom: 10px;
 }
- a:hover{
-    color: black;
+
+a:hover {
+    color: #000000;
 }
-.footer{
-    color: white;
+
+.footer {
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.footer p a:hover{
+
+.footer p a:hover {
     text-decoration: underline;
 }
-.footerlinks{
+
+.footerlinks {
     background-color: #009B47;
     display: flex;
     text-align: center;
